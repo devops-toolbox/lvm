@@ -8,10 +8,10 @@ lvm: Lvm
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.lvm](https://galaxy.ansible.com/devops-toolbox.lvm)
+[https://galaxy.ansible.com/devopstoolbox.lvm](https://galaxy.ansible.com/devopstoolbox.lvm)
 
 ```bash
-ansible-galaxy install devops-toolbox.lvm
+ansible-galaxy install devopstoolbox.lvm
 ```
 
 Requirements
@@ -60,7 +60,7 @@ Example Playbook
   tasks:
     - name: lvm is configured
       import_role:
-        name: devops-toolbox.lvm
+        name: devopstoolbox.lvm
       vars:
         lvm_packages_state: present
         lvm_remove_packages: true
@@ -89,4 +89,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
